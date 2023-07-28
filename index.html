@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!-- Abril Fatface -->
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+	<!-- Lato -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+	<!-- style.css -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- font-awesome.min.css -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- favicon -->
+  <link rel="icon" href="favicons/favicon.icon">
+	<title>Pig Game</title>
+</head>
+<body>
+
+	<div class="container">
+		<div class="player-0-field activeg">
+			<div class="player-name" id="name-0">Player 1</div>
+			<div class="player-score" id="score-0">0</div>
+			<div class="player-current-box">
+				<div class="player-current-label">Current</div>
+				<div class="player-current-score" id="current-0">0</div>
+			</div>
+		</div>
+
+		<div class="player-1-field">
+			<div class="player-name" id="name-1">Player 2</div>
+			<div class="player-score" id="score-1">0</div>
+			<div class="player-current-box">
+				<div class="player-current-label">Current</div>
+				<div class="player-current-score" id="current-1">0</div>
+			</div>
+		</div>
+
+		<button class="btn-new-game"><i class="fa fa-plus-square-o" aria-hidden="true"></i> New Game</button>
+		<button class="btn-roll"><i class="fa fa-repeat" aria-hidden="true"></i> Roll Dice</button>
+		<button class="btn-hold"><i class="fa fa-download" aria-hidden="true"></i> Hold</button>
+
+		<input type="number" placeholder="Final Score" class="final-score">
+
+		<img src="Dice.jpg" alt="Dice Image" class="dice">
+
+	</div>
+	
+	<!-- app.js -->
+	<script src="app.js"></script>
+</body>
+</html>
